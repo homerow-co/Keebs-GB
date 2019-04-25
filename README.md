@@ -1,44 +1,45 @@
 # Keebs-GH
 
-This is a proposal of uniformisation of all the group buys occuring in the mechanical keyboard scene on the internet.
+This is a proposal of uniformity of all the group buys occurring in the mechanical keyboard scene on the internet.
 
 ## Why?
 
-The idea came when i figured out the number of interesting group buys i wanted to join but i missed because they were hidden in a huge number of threads. So the idea is to find a solution __TOGETHER__ to have a proper way to aggregate all the current group buys. Here is a proposal. If we could reach a standard format then we can build an aggregator for all the GB and make it easier for everyone to monitor.
+The idea came about when I figured out the number of interesting group buys I wanted to join but missed out on because they were hidden in numerous threads. So, the idea is to find a solution __TOGETHER__ to have a uniform and easy way to aggregate all the current group buys occurring. Here is a proposal. If we could reach a standard format, then we can build an aggregator for all the GB and make it easier for everyone to monitor and join group buys.
 
-__NOTE__: this project is COMPLETELY PROFITLESS and will stay in this state.
+__NOTE__: this project is COMPLETELY PROFITLESS and will stay this way.
 
-## Who
+## communities
 
-At the moment those communities have been in consideration for the aggregation:
+Right now, the communities considered for aggregation are as follows
 - Geek Hack
 - Reddit
 - Desk Authority
 - Keeb Talk
 
-Some more?
+Any others?
 
 ## Constraints
 
-All the active communities are not using the same forum framework, same post format and so on. Also people doing GroupBuys may not want to post to another platform. I don't want to be an administator of a platform to moderate all the submissions also.
+All the communities listed above are not using a standard forum framework, post format’s and so on. Also, people running Group Buys may not want to post to another platform. We are not planning to make an alternate platform to accomplish our goal. 
 
 ## Proposal
 
 ### Standard Post Format
 
-Using a standard post format we have a good start. For example https://www.reddit.com/r/mechmarket/ has a specific format for all the posts and for the group buys it's the same has https://geekhack.org/ .
-Format is : `[GB] What ever ....`
-Problem with this is we can't figure out the region of the GB and the end date. Proposal would be:
+Using a standard post format gives us a good chance of making this possible. For example https://www.reddit.com/r/mechmarket/ has a specific format for all the posts and for the group buys it's the same as https://geekhack.org/ .
+The current format is as follows -
+[GB] Text ....`
+The issue with this approach is we cannot figure out crucial information regarding things like the region of the GB and end date. The proposal would be:
 ```
 [GB] [REGION] [END-DATE] {TITLE} : {COMMENT}
 ```
 #### Title
 
-This describe the title of the group buy, which added to the region and date give us unicity to store it in the system.
+This describes the title of the group buy, which added to the region and date give us enough information to store it in the system.
 
 #### Comment
 
-I know some titles change during the group buy and it's normal, that's why this section has been added and could change throught the lifecycle of the group buy.
+I know some titles change during the group buy and it's normal, that's why this section has been added and could change through the progression of the group buy.
 
 #### Region
 
@@ -50,9 +51,9 @@ This describe the region of the GB:
 
 #### End Date
 
-This describe the end date of the group buy. The date format must be: MM/DD/YYYY
+This is the end date of the group buy. The date format is as follows: MM/DD/YYYY
 
 ## Questions
 
-- Does the status of the group buy may be added as a standard header format?
+- Should the status of the group buy be added as a standard header format?
 - Is it interesting to extend it to Interest Check?
