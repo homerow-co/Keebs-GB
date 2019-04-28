@@ -1,4 +1,4 @@
-# Keebs-GH
+# Keebs-GB
 
 This is a proposal of uniformity of all the group buys occurring in the mechanical keyboard scene on the internet.
 
