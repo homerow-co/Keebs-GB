@@ -4,7 +4,7 @@ This is a proposal of uniformity of all the group buys occurring in the mechanic
 
 ## Why?
 
-The idea came about when I figured out the number of interesting group buys I wanted to join but missed out on because they were hidden in numerous threads. So, the idea is to find a solution __TOGETHER__ to have a uniform and easy way to aggregate all the current group buys occurring. Here is a proposal. If we could reach a standard format, then we can build an aggregator for all the GB and make it easier for everyone to monitor and join group buys.
+The idea came about when I figured out the number of interesting group buys I wanted to join but missed out on because they were hidden in numerous threads. So, the idea is to find a solution __TOGETHER__ to have a uniform and easy way to aggregate all the current group buys occurring. Here is a proposal. If we could reach a standard format, then we can build an aggregator for all the GB and make it easier for everyone to monitor and join group buys. The main goal is to provide a list of Group Buys with their status and link to community post. Nothing fancy.
 
 __NOTE__: this project is COMPLETELY PROFITLESS and will stay this way.
 
@@ -52,6 +52,20 @@ This describe the region of the GB:
 #### End Date
 
 This is the end date of the group buy. The date format is as follows: MM/DD/YYYY
+
+### Submission Platform
+
+Added to the scraping of posts from all the communities a submission platform may be available. This platform is just here to link to the communities and provide the status of the group buy for everyone.
+
+Mandatory fields:
+- Name
+- End Date
+- 1 community link at least
+
+Optionnal:
+- Region
+
+Adding a group buy has to be quick and simple as the vendors / users may have to post on all communities, it has to be an easy process.
 
 ## Questions
 
