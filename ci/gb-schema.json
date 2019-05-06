@@ -1,0 +1,56 @@
+{
+  "type": "object",
+  "required": ["name", "author", "start", "end", "link", "form", "contact"],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "start": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "end": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "link": {
+      "type": "string"
+    },
+    "form": {
+      "type": "string"
+    },
+    "links": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "geekhack": {
+          "type": "string"
+        },
+        "reddit": {
+          "type": "string"
+        }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "required": ["email"],
+      "properties": {
+        "discord": {
+          "type": "string"
+        },
+        "reddit": {
+          "type": "string"
+        },
+        "geekhack": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

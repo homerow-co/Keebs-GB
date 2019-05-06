@@ -1,0 +1,22 @@
+{
+  "name": "keebs-gb",
+  "version": "1.0.0",
+  "description": "This is a proposal of uniformity of all the group buys occurring in the mechanical keyboard scene on the internet.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zekth/Keebs-GB.git"
+  },
+  "scripts": {
+    "validate": "node ./ci/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zekth/Keebs-GB/issues"
+  },
+  "homepage": "https://github.com/zekth/Keebs-GB#readme",
+  "dependencies": {
+    "ajv": "^6.10.0"
+  }
+}
