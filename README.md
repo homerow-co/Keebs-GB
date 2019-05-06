@@ -1,4 +1,4 @@
-# Keebs-GB
+# Keebs-GB [![Build Status](https://travis-ci.org/zekth/Keebs-GB.svg?branch=master)](https://travis-ci.org/zekth/Keebs-GB)
 
 This is a proposal of uniformity of all the group buys occurring in the mechanical keyboard scene on the internet.
 
