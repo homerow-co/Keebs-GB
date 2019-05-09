@@ -32,9 +32,9 @@ Here is an updated proposal homerowco has done on [geekhack](https://geekhack.or
 ```json
 {
   "name": "My Group By",
-  "author": "homerowco",
-  "start": "2019-05-06T18:25:43.511Z", // using ISO format 
-  "end": "2019-05-25T18:00:43.511Z", // using ISO format 
+  "author": "My Name or Username",
+  "start": "1559347200", // UTC Unix Timestamp
+  "end": "1560470400",
   "link": "https://www.geekhack.com/index.php?main-link-optional",
   "form": "https://google.form/optional",
   "links": {
@@ -43,14 +43,15 @@ Here is an updated proposal homerowco has done on [geekhack](https://geekhack.or
   },
   "contact": {
     "discord": "https://discord.gg/123",
-    "reddit": "homerowco",
-    "geekhack": "homerowco",
-    "email": "support@homerow.co"
+    "reddit": "redditusername",
+    "geekhack": "geekhackusername",
+    "email": "support@mycompany.co"
   }
 }
 ```
-_note_: Datetime validation reference : https://json-schema.org/understanding-json-schema/reference/string.html#format
 
-This is an entry that can be stored in a json file in Github repository. Which will be available easily for everyone. This repository is not meant to provide an app, just the data to be used by any website.
+_Note_: Date reference for UTC timestamp: https://www.unixtimestamp.com/
+
+This is an example entry that can be stored in the hosted JSON file in this Github repository. This repository is not meant to provide an app, just the data to be used by any website.
 
 Also for each addition in a Pull Request the Travis CI is used to ensure the data fits the json schema.
